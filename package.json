@@ -1,0 +1,22 @@
+{
+  "name": "pageevaluate",
+  "version": "1.0.0",
+  "description": "try to use puppeteer.evaluate to get the actions in website",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webAutomaticTest/pageEvaluate.git"
+  },
+  "author": "wei",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/webAutomaticTest/pageEvaluate/issues"
+  },
+  "homepage": "https://github.com/webAutomaticTest/pageEvaluate#readme",
+  "dependencies": {
+    "puppeteer": "^1.4.0"
+  }
+}
