@@ -5,14 +5,10 @@ test();
 async function test(){
 	const browser = await puppeteer.launch({headless: false, args:['--no-sandbox']});
 	const page = await browser.newPage();
-	await page.goto('https://twitter.com/login/');
-	// await page.goto('https://www.baby-connect.com/home');
-	// await page.goto('https://github.com/jpchip/baby-connect-nightmare');
-	await page.waitFor(1000);
-	console.log('candidateSelector');
-
+	await page.goto('https://twitter.com/');
+	// await page.goto('https://apples-oranges.herokuapp.com/');
 	await page.addScriptTag({path:'./optimal-select.js'});
-	console.log('after addScriptTag');
+	
 	let candidateSelector = await page.evaluate(scanCandidateAction);
 	console.log(candidateSelector);
 }

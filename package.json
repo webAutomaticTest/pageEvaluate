@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/webAutomaticTest/pageEvaluate#readme",
   "dependencies": {
-    "puppeteer": "^1.4.0"
+    "puppeteer": "git+https://github.com/GoogleChrome/puppeteer.git"
   }
 }
